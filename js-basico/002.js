@@ -1,0 +1,1 @@
+console.log('>< "hello kitty" está aprendendo aprendendo Javascript às', 10, 'da noite.');
