@@ -24,4 +24,4 @@ console.log(umaString.slice(0, 5));
 console.log(umaString.slice(-6));
 console.log(umaString.split(' '));
 console.log(umaString.toUpperCase());
-console.log(umaString.toLocaleLowerCase());
+console.log(umaString.toLowerCase());
