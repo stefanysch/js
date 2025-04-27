@@ -19,7 +19,7 @@ function criaPessoa(nome, sobrenome, idade) {
     console.log(pessoa1.nome); 
 */
 
-    //objeto através de variável
+/*      objeto através de variável
 const pessoa1 = {
     nome: `Hello`,
     sobrenome: `Kitty`, 
@@ -27,7 +27,7 @@ const pessoa1 = {
 
     fala() {
         console.log(`${this.nome} ${this.sobrenome} está falando oi...`);
-        console.log(`A minha idade atual é ${this.idade}`);
+        console.log(`A minha idade atual é ${this.idade}.`);
     },
     
     incrementaIdade() {
@@ -36,5 +36,4 @@ const pessoa1 = {
 };
 pessoa1.fala();
 pessoa1.incrementaIdade();
-pessoa1.fala();
-pessoa1.incrementaIdade();
+*/

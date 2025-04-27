@@ -17,7 +17,7 @@ console.log(a, b); // alterar o valor de a não altera o valor de b
 function - valores passados por referência
 let a = [1, 2, 3];
 let b = a; // b referencia o mesmo valor de a na memória do computador
-let c = b/ // teremos mais uma variável apontanto para o mesmo valor na memória
+let c = b; // teremos mais uma variável apontanto para o mesmo valor na memória
 console.log(a, b);
 
 a.push(4);
@@ -35,13 +35,13 @@ let b = [...a];
 let c = b; // c irá seguir o valor de b
 */ 
 
-const a = {
+const objetoA = {
     nome: `hello`,
     sobrenome: `kitty`
     };
-    const b = a; // basicamente b aponta para o mesmo local que a na memória
-    const b = {...a}; // espalha o valor de a dentro de b, o valor de b agora é independente
+    // const varB = objetoA; // basicamente b aponta para o mesmo local que a na memória
+    const varB = {...a}; // espalha o valor de a dentro de b, o valor de b agora é independente
 
     a.nome = `keroppi`;
-    console.log(a);
-    console.log(b);
+    console.log(objetoA);
+    console.log(varB);
